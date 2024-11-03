@@ -1,0 +1,144 @@
+body {
+  background: rgb(138, 5, 5);
+}
+
+.app-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transform: translateY(-3%);
+
+}
+
+.movie-container {
+  width: 250px;
+  margin: 16px;
+  background: #6e6f7c;
+  color: white;
+  border-radius: 30px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  font-size: 15px;
+  font-family: "IBM Plex Sans KR",
+    sans-serif;
+}
+
+.movie-container:hover {
+  cursor: pointer;
+}
+
+.movie-container img {
+  max-width: 100%;
+  border-radius: 30px;
+}
+
+.movie-container img:hover {
+  transform: scale(1.1);
+}
+
+.movie-info {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-info h4 {
+  margin: 0;
+}
+
+.movie-info span {
+  margin-left: 3px;
+}
+
+.recent-movie {
+  justify-content: center;
+  font-size: 50px;
+  align-items: center;
+  display: flex;
+  margin-left: 40%;
+  font-family: "IBM Plex Sans KR",
+    sans-serif;
+  color: white;
+}
+
+.recent-movie:hover {
+  cursor: default;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  padding: 20px;
+  transform: translateY(10%);
+  color: white;
+}
+
+nav ul li {
+  padding: 20px;
+  font-size: 20px;
+  font-family: "IBM Plex Sans KR",
+    sans-serif;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  color: aliceblue;
+}
+
+.ibm-plex-sans-kr-regular {
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.movie-icon {
+  padding: 20px;
+  transform: translateY(5%);
+}
+
+
+.movie-link {
+  padding-bottom: 130px;
+}
+
+.movie-choose {
+  display: flex;
+  transform: translateY(-60%);
+  color: white;
+  font-size: 25px;
+  margin-left: 5%;
+  justify-content: space-between;
+}
+
+.movie-text {
+  display: flex;
+}
+
+.movie-choose .movieyet {
+  color: gray;
+}
+
+.movie-button {
+  width: 50px;
+  transform: translateY(75%);
+  margin-right: 10%;
+}
+
+.movielogo {
+  margin-left: 5%;
+  transform: translateY(50%);
+}
+
+.movielogo h4 {
+  transform: translateY(-80%);
+}
